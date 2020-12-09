@@ -1,0 +1,5 @@
+//!can merge this with the next function and add isPrivate...
+
+//!i need that?
+
+//!think of a better way to implement this!

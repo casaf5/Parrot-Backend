@@ -1,0 +1,22 @@
+{
+  "name": "parrot-backend",
+  "version": "1.0.0",
+  "description": "parrot-backend server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "NODE_ENV=dev nodemon server.js"
+  },
+  "author": "Asaf Cohen",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.2",
+    "nodemon": "^2.0.5",
+    "socket.io": "^2.3.0"
+  }
+}
